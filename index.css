@@ -1,0 +1,213 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navigationBar {
+  position: fixed;
+  top: 10px;
+  left: 4px;
+  right: 4px;
+  min-height: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border: 4px solid;
+}
+
+.navigationTitle {
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.navigationlist {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.navigationlistItem {
+  padding-right: 1.3rem;
+  border-right: 3px solid;
+}
+
+main {
+  padding-top: 30px;
+}
+
+.dateSection {
+  margin-right: 40px;
+}
+
+.date {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-top: 60px;
+}
+
+h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 55px;
+}
+
+.book_details {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 4px solid;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.book {
+  padding: 10px 20px;
+  background-color: #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.white {
+  background-color: white;
+}
+
+.book_title {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.author_name {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.book button {
+  cursor: pointer;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: large;
+  background-color: white;
+  border: 4px solid black;
+  border-radius: 3px;
+  box-shadow:
+    5px 5px 5px rgba(0, 0, 0, 10),
+    -3px -3px 5px rgba(255, 255, 255, 0.3);
+}
+
+.addBookDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+h2 {
+  font-size: 53px;
+  font-weight: bolder;
+  padding-bottom: 40px;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 70vh;
+}
+
+input[type="text"] {
+  margin-top: 20px;
+  padding: 5px;
+  width: 500px;
+  border: 4px solid black;
+  height: 50px;
+  font-size: 25px;
+}
+
+.btn {
+  display: flex;
+  justify-content: right;
+  width: 500px;
+}
+
+.add_button {
+  cursor: pointer;
+  padding: 10px 40px;
+  position: relative;
+  font-size: 28px;
+  background-color: white;
+  border: 4px solid black;
+  border-radius: 3px;
+  box-shadow:
+    5px 5px 5px rgba(0, 0, 0, 10),
+    -3px -3px 5px rgba(255, 255, 255, 0.3);
+}
+
+.contact_information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  gap: 5rem;
+}
+
+.contact_information h3 {
+  font-size: 3.5rem;
+}
+
+.contact_information p {
+  font-size: 1.5rem;
+}
+
+.contact_information ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact_information ul li {
+  font-size: 1.5rem;
+}
+
+.noDisplay {
+  display: none;
+}
+
+.footer {
+  position: fixed;
+  bottom: 10px;
+  right: 4px;
+  left: 4px;
+  height: 40px;
+  border: 4px solid;
+  display: flex;
+  align-items: center;
+}
+
+.footerText {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.dark_red {
+  color: darkred;
+}
